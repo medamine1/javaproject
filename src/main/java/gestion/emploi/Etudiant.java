@@ -9,4 +9,14 @@ public class Etudiant extends Utilisateur{
         this.typeUtilisateur="etudiant";
         this.groupe=groupe;
     }
+<<<<<<< HEAD
+=======
+    public Groupe getGroupe() {
+        return groupe;
+    }
+
+    public void setGroupe(Groupe groupe) {
+        this.groupe = groupe;
+    }
+>>>>>>> 5bc938f7c4d3fed7c619bcb866b242ee85eba12b
 }
